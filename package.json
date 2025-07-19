@@ -1,0 +1,19 @@
+{
+  "name": "gatigos-backend",
+  "version": "1.0.0",
+  "description": "Backend para Gat i Gos (reserva y envío de correo)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Samuel Ortiz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mjml": "^4.15.3",
+    "nodemailer": "^7.0.5"
+  }
+}
